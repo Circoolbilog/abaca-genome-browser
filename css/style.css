@@ -42,7 +42,7 @@ body{
   }
   
   .card-3{
-     background-image: url("./assets/abaca/abaca_dp/tangongon.png");
+     background-image: url("/assets/abaca/abaca_dp/tangongon.png");
         background-repeat: no-repeat;
       background-position: right;
       background-size: 80px;

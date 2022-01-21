@@ -3,8 +3,8 @@ body{
     font-family: 'Nunito', sans-serif;
   }
   .card{
-      border-radius: 4px;
-      background: #fff;
+      border-radius: 6px;
+      background: #ffff;
       box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
         transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
     padding: 14px 80px 18px 36px;
@@ -28,21 +28,21 @@ body{
   }
   
   .card-1{
-    background-image: url(/assets/abaca/abaca_dp/abuab.png);
+    background-image: url("/assets/abaca/abaca_dp/abuab.png");
         background-repeat: no-repeat;
       background-position: right;
       background-size: 80px;
   }
   
   .card-2{
-     background-image: url(/assets/abaca/abaca_dp/inosa.png);
+     background-image: url("/assets/abaca/abaca_dp/inosa.png");
         background-repeat: no-repeat;
       background-position: right;
       background-size: 80px;
   }
   
   .card-3{
-     background-image: url(/assets/abaca/abaca_dp/tangongon.png);
+     background-image: url("/assets/abaca/abaca_dp/tangongon.png");
         background-repeat: no-repeat;
       background-position: right;
       background-size: 80px;

@@ -3,17 +3,17 @@ body{
     font-family: 'Nunito', sans-serif;
   }
   .card{
-      border-radius: 6px;
+      border-radius: 8px;
       background: #ffff;
-      box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      box-shadow: 0 20px 26px rgba(0, 0, 0, 0.3), 0 0 6px rgba(0, 0, 0, 0.3);
         transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-    padding: 14px 80px 18px 36px;
+    padding: 80px 28px 40px 26px;
     cursor: pointer;
   }
   
   .card:hover{
-       transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+       transform: scale(1.1);
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.3);
   }
   
   .card h3{
@@ -22,9 +22,9 @@ body{
   
   .card img{
     position: absolute;
-    top: 20px;
-    right: 15px;
-    max-height: 120px;
+    top: 30px;
+    right: 25px;
+    max-height: 200px;
   }
   
   
@@ -32,21 +32,21 @@ body{
     background-image: url("../assets/abaca/abaca_dp/abuab.png");
         background-repeat: no-repeat;
       background-position: right;
-      background-size: 80px;
+      background-size: 150px;
   }
   
   .card-2{
      background-image: url("../assets/abaca/abaca_dp/inosa.png");
         background-repeat: no-repeat;
       background-position: right;
-      background-size: 80px;
+      background-size: 150px;
   }
   
   .card-3{
      background-image: url("../assets/abaca/abaca_dp/tangongon.png");
         background-repeat: no-repeat;
       background-position: right;
-      background-size: 80px;
+      background-size: 150px;
   }
   a.fill-div {
     display: block;
@@ -57,6 +57,6 @@ body{
   
   @media(max-width: 990px){
     .card{
-      margin: 20px;
+      margin: 30;
     }
   } 

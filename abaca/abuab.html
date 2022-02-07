@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous" />
+
+    <style>
+        /* Content of modal div is center aligned */
+        .modal {
+            text-align: center;
+        }
+    </style>
+
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,9 +62,52 @@
             </div>
             <div class="row gx-4 gx-lg-5 align-items-center my-5">
                 <div class="col-lg-5" >
-                  <img src="../assets//abaca/abaca_dp/abuab.png" class="rounded mx-auto d-block" alt="abuab"  style="object-fit:contain;
+                  <img src="../assets//abaca/abaca_dp/Abuab.jpg" class="rounded mx-auto d-block" alt="abuab"  style="object-fit:contain;
                   width: 300px;
-                  height: 400px;">
+                  height: 400px;"
+                  data-toggle="modal"
+                  data-target="#exampleModal" width="10%">
+                  <div class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog"
+                      role="document">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <!-- w-100 class so that header
+                      div covers 100% width of parent div -->
+                              <h5 class="modal-title w-100"
+                                  id="exampleModalLabel">
+                              Abuab
+                          </h5>
+                              <button type="button"
+                                      class="close"
+                                      data-dismiss="modal"
+                                      aria-label="Close">
+                                  <span aria-hidden="true">
+                                  ×
+                              </span>
+                              </button>
+                          </div>
+      
+                          <!--Modal body with image-->
+                          <div class="modal-body">
+                              <img src="../assets//abaca/abaca_dp/Abuab.jpg" width="100%" />
+                          </div>
+      
+                          <div class="modal-footer">
+                              <button type="button"
+                                      class="btn btn-danger"
+                                      data-dismiss="modal">
+                              Close
+                          </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
                 </div>
                 <div class="col-lg-5">
                    <h3 class="font-weight-light">Agronomic Characteristics</h3>
